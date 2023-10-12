@@ -465,7 +465,8 @@ a:focus {
 .card {
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 20px;
+  padding-left: 40px;
+  padding-top: 10px;
   width: 48%; /* Adjust the width as needed to fit two cards in the whole width */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   margin: 0;
@@ -473,7 +474,9 @@ a:focus {
 }
 
 .card img {
-  width: 15rem;
+  width: 20rem;
+  margin-left: 60px
+
 
 }
 
