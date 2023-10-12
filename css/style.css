@@ -1,7 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000000;
   background-color: #ffffff;
+ 
 }
 
 .layout_padding {
@@ -92,6 +96,9 @@ body {
   color: #ffffff;
   text-align: center;
   position: relative;
+}
+.nav-link{
+  font-size: 1.5rem;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link::after {
@@ -470,23 +477,27 @@ a:focus {
   width: 48%; /* Adjust the width as needed to fit two cards in the whole width */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   margin: 0;
-  height: 15rem ;
+  height: 20rem ;
 }
 
 .card img {
   width: 20rem;
-  margin-left: 60px
-
-
+  margin-left: 60px;
+ 
+}
+.card img:nth-child(1){
+  margin-left: -3rem;
 }
 
 .card h2 {
   font-size: 1.5em;
   margin: 10px 0;
+  text-align: center;
 }
 
 .card p {
   font-size: 1em;
+  text-align: center;
 }
 
 section.app_section {
